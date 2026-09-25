@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/about", "dest": "/index.html#clinical-director" },
+    { "src": "/services", "dest": "/index.html#treatments" },
+    { "src": "/contact", "dest": "/index.html#contact-location" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
